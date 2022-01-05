@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    margin-top: auto;
+    padding: 2em 1em;
+    background-color: #f8f9fa;
+}
+
+.heading{
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.interest-link{
+    margin: 1em 0;
+    padding: .5em 0;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, .75);
+    transition: all .3s ease-in-out;
+}
+
+.interest-link:hover{
+    transform: scale(1.08,1.08);
+}
+
+.interest-link a {
+    text-decoration: none;
+    color: #d3d1d1;
+}
+.interest-link a:active {
+    text-decoration: none;
+    color: #d3d1d1;
+}
+
+.interest-link.mail{
+    background-color: #FFCD00;
+}
+
+.interest-link.mail a {
+    color: #333;
+}
+
+.interest-link.drive{
+    background-color: #012169;
+}
+
+.interest-link.wiki{
+    background-color: #E0004D;
+}
+
+.interest-link.github{
+    background-color: #333;
+}
+
+.interest-link.discord{
+    background-color: #5865F2;
+}
+
+.interest-link.invision{
+    background-color: #00b5e2;
+}
+
+.interest-link.invision a {
+    color: #333;
+}
